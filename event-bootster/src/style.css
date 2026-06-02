@@ -1,6 +1,7 @@
 :root {
   --purple: #dc56c5;
   --gray: #939393;
+  --whit: #fff;
 }
 
 * {
@@ -10,14 +11,22 @@
 }
 
 .header {
+  /* background-image: url("../src/img/svg/logo.svg");
+  background-position: ;
+  background-repeat: no-repeat;
+  background-size: ; */
 }
 
 .header__nav {
   background-image: url("../src/img/pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-div {
+  padding-top: 50px;
   padding-bottom: 192px;
+  align-items: center;
 }
 
 .div__title {
@@ -32,9 +41,8 @@
 }
 
 .div__input {
-  
-  background-color: #939393;
-  background: var(--gray);
+  background-color: var(--gray);
+  background: rgb(255, 255, 255, 20%);
   padding: 14px 118px 14px 31px;
-  border-radius: 20px;
+  border-radius: 30px;
 }
