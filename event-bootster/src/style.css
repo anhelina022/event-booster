@@ -26,7 +26,7 @@
 .nav-div {
   padding-top: 50px;
   padding-bottom: 192px;
-  align-items: center;
+  
 }
 
 .div__title {
@@ -41,8 +41,18 @@
 }
 
 .div__input {
-  background-color: var(--gray);
-  background: rgb(255, 255, 255, 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
   padding: 14px 118px 14px 31px;
+  font-family: "Montserrat";
   border-radius: 30px;
+  margin-right: 30px;
 }
