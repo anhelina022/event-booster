@@ -55,21 +55,26 @@ modalContent.innerHTML = `
     <img src="${currentEvent.images[0].url}" alt="${currentEvent.name}" class="modal__image-logo">
     </div>
 
+    <div class="modal__div-flex">
     <div class="modal__div-img">
     <img src="${currentEvent.images[0].url}" alt="${currentEvent.name}" class="modal__image">
     </div>
 
+    <div class="modal__div-container">
     <div class="modal__div">
-    <h2>${currentEvent.name}</h2>
+    <h3 class="info">INFO</h3>
     <p>${currentEvent.info || "No description"}</p>
     </div>
 
     <div class="modal__div">
+    <h3 class="info">WHEN</h3>
     <p>${currentEvent.dates.start.localDate}</p>
     <p>${currentEvent._embedded.venues[0].name}</p>
     </div>
+    </div>
+    </div>
     
-    class="modal__div-btn">
+    <div class="modal__div-btn">
     <button class="modal__btn">MORE FROM THIS AUTHOR</button>
     </div>
     `;

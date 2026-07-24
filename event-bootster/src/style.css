@@ -189,7 +189,7 @@
 }
 
 .modal {
-  width: 600px;
+  width: 700px;
   height: 650px;
   background: #FFF2FD;
   padding: 40px;
@@ -204,6 +204,19 @@
   width: 30px;
   height: 30px;
   color: #4C00FE;
+  background-image: url("../src/img/svg/close-x-svgrepo-com.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+}
+
+.modal__div-logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 31px;
 }
 
 .modal__image-logo {
@@ -212,13 +225,22 @@
   border-radius: 100%;
 }
 
+.modal__div-flex {
+  display: flex;
+  align-content: stretch;
+  gap: 20px;
+}
+
 .modal__image {
   width: 300px;
   height: 400px;
 }
 
-.modal__div {
-  
+.modal__div-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
 }
 
 .modal__btn {
@@ -231,3 +253,14 @@
   color: #4C00FE;
   font-weight: 500;
 }
+
+.info {
+  font-family: 'Montserrat';
+  color: #DC56C5;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 15px 0 10px;
+}
+
